@@ -35,6 +35,15 @@ namespace Assignment04OOP
             //SeriesByThree seriesByThree = new SeriesByThree();
             //Print10NumbersFromSeries(seriesByThree);
             #endregion
+            #region Ex02 
+            //Car car = new Car();
+            //car.Backward();
+            //car.Forward();
+            //Airplane airplane = new Airplane();
+
+            //IFlyable airplane2 = new Airplane();
+            //airplane2.Forward();
+            #endregion
 
         }
     }
