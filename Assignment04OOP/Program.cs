@@ -1,4 +1,5 @@
-﻿using Assignment04OOP.Interfaces;
+﻿using Assignment04OOP.ICloneable_Interface;
+using Assignment04OOP.Interfaces;
 using System.Text;
 
 namespace Assignment04OOP
@@ -113,7 +114,38 @@ namespace Assignment04OOP
 
             #endregion
 
+            #region Shallow Copy and Deep Copy For UserDefiend Datatype
+            //Employee employee01 = new Employee()
+            //{
+            //    Id = 20,
+            //    Name = new StringBuilder("Mohamed"),
+            //    Salary = 5000
+            //};
+            //Employee employee02 = new Employee()
+            //{
+            //    Id = 30,
+            //    Name = new StringBuilder("Ali"),
+            //    Salary = 7000
+            //};
+            //Console.WriteLine(employee01.GetHashCode());
+            //Console.WriteLine(employee01);
+            //Console.WriteLine(employee02.GetHashCode());
+            //Console.WriteLine(employee02);
+
+            //employee01 = (Employee) employee02.Clone();
+            //Console.WriteLine(employee01.GetHashCode());
+            //Console.WriteLine(employee01);
+            //Console.WriteLine(employee02.GetHashCode());
+            //Console.WriteLine(employee02);
+
+            //employee02 = new Employee(employee01);
+            //Console.WriteLine(employee01.GetHashCode());
+            //Console.WriteLine(employee01);
+            //Console.WriteLine(employee02.GetHashCode());
+            //Console.WriteLine(employee02); 
+            #endregion
 
         }
+
     }
 }
