@@ -44,6 +44,36 @@ namespace Assignment04OOP
             //IFlyable airplane2 = new Airplane();
             //airplane2.Forward();
             #endregion
+            #region Shallow & Deep Copy
+            #region Array Of Value Type
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = new int[3];
+            #region Shallow Copy [Stack] On References
+
+            //Arr02 = Arr01;
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+
+            //Console.WriteLine(Arr01[0]);
+            //Console.WriteLine(Arr02[0]);
+
+            #endregion
+
+            #region Deep Copy [Heap] Clone()
+            //Arr02 = (int[])Arr01.Clone();
+
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+
+            #endregion
+
+
+
+            #endregion
+
+
+
+            #endregion
 
         }
     }
