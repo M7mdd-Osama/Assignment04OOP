@@ -1,4 +1,5 @@
 ﻿using Assignment04OOP.Interfaces;
+using System.Text;
 
 namespace Assignment04OOP
 {
@@ -44,6 +45,7 @@ namespace Assignment04OOP
             //IFlyable airplane2 = new Airplane();
             //airplane2.Forward();
             #endregion
+
             #region Shallow & Deep Copy
             #region Array Of Value Type
             //int[] Arr01 = { 1, 2, 3 };
@@ -68,10 +70,10 @@ namespace Assignment04OOP
             #endregion
             #endregion
 
-            #region Array Of Reference Type
+            #region  Array Of Reference Type
+            #region Array Of String [Immutable Type]
             //string[] Name01 = { "Mohamed" };
             //string[] Name02 = new string[1];
-
             #region Shallow Copy
             //Name02 = Name01;
             //Console.WriteLine(Name01[0]);
@@ -86,7 +88,27 @@ namespace Assignment04OOP
             //Console.WriteLine(Name02[0]);
 
             #endregion
+            #endregion
+            #region Array Of StringBuilder [Mutable Type]
+            //StringBuilder[] Name01 = new StringBuilder[1];
+            //Name01[0] = new StringBuilder("Mohamed");
+            //StringBuilder[] Name02 = new StringBuilder[1];
+            #region Shallow Copy [Stack]
+            //Name02 = Name01;
+            //Console.WriteLine(Name01[0]);
+            //Console.WriteLine(Name02[0]); 
+            #endregion
+            #region Deep Copy [Heap]
+            //Name02 = (StringBuilder[])Name01.Clone();
+            //Console.WriteLine(Name01.GetHashCode());
+            //Console.WriteLine(Name02.GetHashCode());
+            //Name01[0].Append(" Osama");
+            //Console.WriteLine(Name02[0]);
+            //Console.WriteLine(Name01[0]);
 
+            #endregion
+
+            #endregion
             #endregion
 
             #endregion
