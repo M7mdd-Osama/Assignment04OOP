@@ -145,6 +145,23 @@ namespace Assignment04OOP
             //Console.WriteLine(employee02); 
             #endregion
 
+            #region Built In Interface ICompareable
+            //Employee[] employees = new Employee[4]
+            //{
+            //    new Employee() {Id = 10 , Name = "Mohamed" , Salary = 4000},
+            //    new Employee() {Id = 20 , Name = "Omar" , Salary = 3000},
+            //    new Employee() {Id = 30 , Name = "Mahmoud" , Salary = 2000},
+            //    new Employee() {Id = 40 , Name = "Ahmed" , Salary = 8000}
+            //};
+            //Array.Sort(employees);
+            //foreach (Employee emp in employees)
+            //{
+            //    Console.WriteLine(emp);
+            //}
+            //Console.WriteLine(employees[1].CompareTo(employees[2])); 
+            #endregion
+
+
         }
 
     }
