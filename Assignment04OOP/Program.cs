@@ -66,14 +66,31 @@ namespace Assignment04OOP
             //Console.WriteLine(Arr02.GetHashCode());
 
             #endregion
+            #endregion
 
+            #region Array Of Reference Type
+            //string[] Name01 = { "Mohamed" };
+            //string[] Name02 = new string[1];
 
+            #region Shallow Copy
+            //Name02 = Name01;
+            //Console.WriteLine(Name01[0]);
+            //Console.WriteLine(Name02[0]);
+            #endregion
+            #region Deep Copy
+            //Name02 = (string[])Name01.Clone();
+            //Console.WriteLine(Name01[0]);
+            //Console.WriteLine(Name02[0]);
+            //Name02[0] = "Ahmed";
+            //Console.WriteLine(Name01[0]);
+            //Console.WriteLine(Name02[0]);
 
             #endregion
 
-
+            #endregion
 
             #endregion
+
 
         }
     }
