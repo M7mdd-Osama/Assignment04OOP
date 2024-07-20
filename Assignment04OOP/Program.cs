@@ -162,6 +162,24 @@ namespace Assignment04OOP
             #endregion
 
 
+            #region Built In Interface IComparer
+            //Employee[] employees = new Employee[4]
+            //{
+            //    new Employee() {Id = 10 , Name = "Mohamed" , Salary = 4000},
+            //    new Employee() {Id = 30 , Name = "Mahmoud" , Salary = 2000},
+            //    new Employee() {Id = 40 , Name = "Ahmed" , Salary = 8000},
+            //    new Employee() {Id = 20 , Name = "Omar" , Salary = 3000}
+
+            //};
+
+            //Array.Sort(employees, new EmployeeIdComparer());
+            //foreach (Employee emp in employees)
+            //{
+            //    Console.WriteLine(emp);
+            //}
+            #endregion
+
+
         }
 
     }
